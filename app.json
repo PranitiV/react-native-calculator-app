@@ -1,9 +1,8 @@
 {
   "expo": {
-    "name": "first-app",
-    "slug": "first-app",
+    "name": "Praniti's Calculator App",
+    "slug": "praniti-calculator-app",
     "version": "1.0.0",
-    "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
@@ -18,16 +17,19 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pranitivakharia.praniticalculatorapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.pranitivakharia.praniticalculatorapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "Calculator"
   }
 }
